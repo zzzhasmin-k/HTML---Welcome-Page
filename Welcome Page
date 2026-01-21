@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Профиль — Жасмин</title>
+
+    <style>
+      body {
+        background: #edc7b7; /* персиковый фон */
+        font-family: Arial, sans-serif;
+        color: #123c69;
+        margin: 0;
+        padding: 0;
+      }
+
+      .container {
+        width: 70%;
+        margin: 30px auto;
+        background: #eee2dc;
+        padding: 30px;
+        border-radius: 10px;
+        border: 2px solid #bab2b5;
+      }
+
+      h1 {
+        text-align: center;
+        color: #ac3b61;
+        margin-bottom: 20px;
+      }
+
+      h2 {
+        color: #ac3b61;
+        margin-top: 35px;
+      }
+
+      p,
+      li,
+      td,
+      th {
+        color: #123c69;
+        font-size: 18px;
+      }
+
+      ul,
+      ol {
+        margin-left: 20px;
+      }
+
+      table {
+        width: 60%;
+        border-collapse: collapse;
+        margin-top: 10px;
+      }
+
+      table,
+      th,
+      td {
+        border: 1px solid #bab2b5;
+        padding: 8px;
+      }
+
+      th {
+        background: #bab2b5;
+        color: white;
+      }
+
+      img {
+        width: 200px;
+        border-radius: 10px;
+        margin-top: 10px;
+        border: 3px solid #bab2b5;
+      }
+
+      a {
+        color: #123c69;
+        font-weight: bold;
+        text-decoration: none;
+      }
+
+      a:hover {
+        color: #ac3b61;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>Добро пожаловать на страницу Жасмин</h1>
+
+      <p>
+        Меня зовут Жасмин. Я люблю изучать языки, заниматься спортом и готовить
+        вкусную выпечку. В свободное время я провожу время с друзьями или
+        тренируюсь.
+      </p>
+
+      <h2>Забавные факты обо мне</h2>
+      <p>• Я очень люблю птиц и насекомых.</p>
+      <p>• У меня дома больше 10 видов чая.</p>
+      <p>• Я проехала 100 км на велосипеде за 5 дней.</p>
+
+      <h2>Вещи, которые я люблю</h2>
+      <ul>
+        <li>Английский</li>
+        <li>Плавание в бассейне</li>
+        <li>Йога</li>
+        <li>Читать про разные страны</li>
+        <li>Аниме</li>
+      </ul>
+
+      <h2>Места, которые я хочу посетить</h2>
+      <ol>
+        <li>Америка</li>
+        <li>Остров Сокотра</li>
+        <li>Швейцария</li>
+      </ol>
+
+      <h2>Мои навыки (skills)</h2>
+      <table>
+        <tr>
+          <th>Навык</th>
+          <th>Уровень</th>
+        </tr>
+        <tr>
+          <td>Английский</td>
+          <td>C1</td>
+        </tr>
+        <tr>
+          <td>Немецкий</td>
+          <td>B2</td>
+        </tr>
+        <tr>
+          <td>Китайский</td>
+          <td>Beginner</td>
+        </tr>
+      </table>
+
+      <h2>Фото</h2>
+
+      <img src="my-photo.jpg" alt="Фото Жасмин" />
+
+      <h2>Любимые сайты</h2>
+      <ul>
+        <li><a href="https://ground.news">Ground News</a></li>
+        <li><a href="https://arzamas.academy">Arzamas</a></li>
+        <li><a href="https://stepik.org/catalog">Stepik</a></li>
+      </ul>
+
+      <h2>Контакты</h2>
+      <p>E-mail: <em>zhasminkhusam@mail.ru</em></p>
+      <p>Telegram: <em>@zhasminkhusam</em></p>
+    </div>
+  </body>
+</html>
